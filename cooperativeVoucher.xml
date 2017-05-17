@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="voucher.xsl"?>
+<gvl:Voucher xmlns:gvl="urn:ietf:params:xml:ns:vts-lang"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:ietf:params:xml:ns:vts-lang voucherSchema.xsd ">
+	<gvl:Title>Title</gvl:Title>
+	<gvl:Issuer>
+		<gvl:name>name</gvl:name>
+		<gvl:account>account</gvl:account>
+		<gvl:shortname>shortname</gvl:shortname>
+		<gvl:longname>longname</gvl:longname>
+		<gvl:postaddress>postaddress</gvl:postaddress>
+		<gvl:country>country</gvl:country>
+		<gvl:registration>registration</gvl:registration>
+		<gvl:Bzz>Bzz</gvl:Bzz>
+		<gvl:account>account</gvl:account>
+	</gvl:Issuer>
+	<gvl:Provider>
+		<gvl:name>name</gvl:name>
+		<gvl:account>account</gvl:account>
+		<gvl:shortname>shortname</gvl:shortname>
+		<gvl:longname>longname</gvl:longname>
+		<gvl:postaddress>postaddress</gvl:postaddress>
+		<gvl:country>country</gvl:country>
+		<gvl:registration>registration</gvl:registration>
+		<gvl:Bzz>Bzz</gvl:Bzz>
+		<gvl:account>account</gvl:account>
+	</gvl:Provider>
+	<gvl:Value>
+		<gvl:Fixed>
+			<gvl:currency>voucherTokenName</gvl:currency>
+			<gvl:voucherTokenSymbol>voucherTokenSymbol</gvl:voucherTokenSymbol>
+			<gvl:voucherTokenLogoBzz>voucherTokenLogoBzz</gvl:voucherTokenLogoBzz>
+			<gvl:amount>1000000</gvl:amount>
+			<gvl:decimalPower>2</gvl:decimalPower>
+		</gvl:Fixed>
+	</gvl:Value>
+	<gvl:Merchandise>Lorem ipsum dolor sit amet, autem mucius ea quo, et exerci soluta placerat mea, qui habeo molestie ad. Vim eripuit fabulas copiosae at, error convenire et ius. Te nostrud fierent nam, ea autem iusto denique duo. Eu mel modus dictas placerat, tollit dicunt intellegam ei eum, no eum nibh dicat. Id imperdiet posidonium interpretaris pro, has te wisi graeco. Exerci appareat vel no, duo ex corpora legendos patrioque. Nec an veri natum putant.</gvl:Merchandise>
+	<gvl:Merchandise>Ea debet nonumy vim, ex labore euripidis persequeris eum, hinc sensibus ea sit. Vix id dolore diceret mnesarchum, has lucilius consulatu ex. Erat justo vix ne, nam molestie mnesarchum ut, quem mandamus at mea. Eos quis delectus scaevola ad, per bonorum quaestio ne. Nec velit volutpat ea. No sea evertitur torquatos reformidans, est minimum neglegentur an.</gvl:Merchandise>
+	<gvl:Merchandise>Tacimates deseruisse has ex. Adhuc scripta persius eos cu, sea eu sale meliore. Usu cu falli assueverit, meis inimicus ea eum. Ius perfecto adipiscing te, porro conceptam ad nam. Ridens utroque percipitur mei ex, ad minim tibique accusata quo. Mea id stet equidem. Vix ad tantas primis rationibus, te possit ornatus gloriatur mea.</gvl:Merchandise>
+	<gvl:Merchandise>Aeque graeco nusquam ei mea, ius tractatos imperdiet iracundia id. Nusquam adversarium ea has, cum in audiam convenire. Vim probo eirmod ex. Ei quo amet appetere. Scripta noluisse ex est, eu enim commodo dissentiunt mei.</gvl:Merchandise>
+	<gvl:Description>Ne nec vivendum conclusionemque, sed at clita dolores oporteat, at sed erat virtute. Vocent scaevola et duo, facilisi euripidis accommodare mei in. Cu qui delenit constituam contentiones, cum an saperet eleifend oportere, cu invidunt volutpat eam. Duo unum mazim ex, sea minimum pertinax voluptaria cu, nam et case detracto.</gvl:Description>
+	<gvl:Description>Possit appetere persequeris id eos, eos an nisl tota efficiantur. At mei munere partem legendos, ad sea oratio noster iudicabit, ea liber eligendi consequat eos. Ea sed nonumes erroribus voluptatibus, et pri ferri electram. Ut sed bonorum sanctus, duo dicat quaestio concludaturque at. Et vis soleat primis, elit ullum liber eos in.</gvl:Description>
+	<gvl:Description>Cu purto diceret interpretaris vis, sed ne placerat qualisque, minimum quaerendum referrentur in vim. Integre feugiat te vim, ex animal docendi dignissim pro, timeam dissentiunt usu et. Brute interpretaris in sit, at vix habeo fabulas referrentur, eu idque graeco cotidieque duo. Sanctus torquatos cum id, ea oratio recusabo voluptatibus his.</gvl:Description>
+	<gvl:Condition>Nam elit fastidii vivendum eu, aliquip voluptua principes cum ex, aliquip volumus nominavi per cu. Ut pertinax delicata adversarium mel. Solet tantas partiendo quo ad, ne vix tritani expetenda. Purto percipit vel cu, tamquam voluptatibus his ut. Per ei ullum probatus constituto, ne noluisse verterem mea.</gvl:Condition>
+	<gvl:Condition>Ex viris iisque sit. Ad eirmod mediocrem intellegam has, ad tempor corrumpit conceptam duo, menandri abhorreant no vis. Sit enim possim suscipiantur eu, ea qui facilisis moderatius. No sea offendit platonem interpretaris, zril electram imperdiet vis ut. Aliquip noluisse ex cum, at nam solet ubique delectus.</gvl:Condition>
+	<gvl:Condition>Et natum munere nemore sed. Iriure copiosae ea nec, has doming torquatos at, no vidit dissentiunt vituperatoribus est. Cum aeterno debitis voluptatum ut, in amet adipiscing quaerendum eum. Detracto ponderum pri no, propriae iudicabit id has, cibo suavitate et has. Id pri nusquam maluisset, ex oportere ullamcorper interpretaris sed, legere sensibus definitiones eu eos. Sed tota accumsan suscipit ea, illud electram ad usu.</gvl:Condition>
+	<gvl:ValidPeriod end="2001-12-31T12:00:00" start="2001-12-31T12:00:00" />
+</gvl:Voucher>
