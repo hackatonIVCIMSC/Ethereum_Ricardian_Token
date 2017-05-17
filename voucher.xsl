@@ -47,6 +47,7 @@
 							<div class="panel-heading"><h2>swarm</h2></div>
 							<div class="panel-body">
 								<h1>CONTRACT</h1>
+								<strong>The following sample contract is provided with proof of concept purposes only. It does not pretend to represent a complete or legally valid document</strong>
 								<h2>
 									<xsl:value-of select="gvl:Title" />
 								</h2>
