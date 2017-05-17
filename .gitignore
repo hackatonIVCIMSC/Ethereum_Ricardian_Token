@@ -1,0 +1,8 @@
+# system
+.DS_STORE
+
+# node
+node_modules
+
+# truffle
+build/
