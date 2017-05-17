@@ -87,7 +87,12 @@ xsi:schemaLocation="urn:ietf:params:xml:ns:vts-lang voucherSchema.xsd ">
 <gvl:Merchandise>Lemons, Limes</gvl:Merchandise>
 <gvl:Merchandise>Strawberries</gvl:Merchandise>
 <gvl:Merchandise>Walnuts</gvl:Merchandise>
-<gvl:Description>The undersigned, a producer of agricultural products, hereinafter referred to as “Community,” together with other signers of agreements similar hereto, have a cooperative association under the laws of the Country of the Association</gvl:Description>
+<gvl:Desciption>“Processing Year” is the twelve-month period commencing January 1 and ending on December 31 of each year, unless otherwise changed by the Cooperative.</gvl:Description>
+<gvl:Desciption></gvl:Description>
+<gvl:Desciption>“Committed Bushels” is the number of bushels of [commodity] that Member has committed to deliver annually to the Cooperative hereunder.</gvl:Description>
+<gvl:Desciption>“Delivery Period” is the delivery period established for a Processing Year as determined by the Board in its discretion.</gvl:Description>
+<gvl:Desciption>“Input Commodity Payment” is the per unit price of the delivered [commodity] established by the Board of Directors, in its discretion, prior to the beginning of each Delivery Period.</gvl:Description>
+<gvl:Description>Each community, a producer of agricultural products, hereinafter referred to as “Community,” together with other signers of agreements similar hereto, have a cooperative association under the laws of the Country of the Association</gvl:Description>
 <gvl:Description>(a) The association shall be organized with suitable articles of incorporation and bylaws as determined by an organizational committee.</gvl:Description>
 <gvl:Description>(b) This committee may, by vote of a majority of its members, increase its membership, fill any vacancy therein, and appoint any subcommittees deemed necessary to conduct its affairs. The committee, or any subcommittee designated by it, may prescribe an organization fee to be paid by each person signing an organization agreement and may incur necessary obligations, make necessary expenditures,
 and take any such action as may, in its discretion, be deemed advisable to further the organization of the association.</gvl:Description>
