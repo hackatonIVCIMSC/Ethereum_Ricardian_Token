@@ -39,10 +39,7 @@
 			<body>
 				<div class="container bg-3">
 					<div class="row">
-						<div class="panel panel-default col-sm-6" align="left">
-							<div class="panel-heading"><h2>ethereum</h2></div>
-							<div class="panel-body">Panel Content</div>
-						</div>
+
 						<div class="panel panel-default col-sm-6" align="left">
 							<div class="panel-heading"><h2>swarm</h2></div>
 							<div class="panel-body">
