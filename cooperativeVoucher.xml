@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="voucher.xsl"?>
 <gvl:Voucher xmlns:gvl="urn:ietf:params:xml:ns:vts-lang"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="urn:ietf:params:xml:ns:vts-lang voucherSchema.xsd ">
-<gvl:Title>Title</gvl:Title>
-<gvl:Issuer>
-<gvl:name>KOMPU A.C.M.S.</gvl:name>
-<gvl:account>account</gvl:account>
-<gvl:shortname>KOMPU</gvl:shortname>
-<gvl:longname>Kompu Agricultural co-operative Marketing Society</gvl:longname>
-<gvl:postaddress>NAFED HOUSE, Siddhartha Enclave, Ashram Chowk, New Delhi 110 014, India</gvl:postaddress>
-<gvl:country>India</gvl:country>
-<gvl:registration>91-11-26341807</gvl:registration>
-<gvl:Bzz>Bzz</gvl:Bzz>
-</gvl:Issuer>
-<gvl:Provider>
-<gvl:name>name</gvl:name>
-<gvl:account>account</gvl:account>
-<gvl:shortname>shortname</gvl:shortname>
-<gvl:longname>longname</gvl:longname>
-<gvl:postaddress>postaddress</gvl:postaddress>
-<gvl:country>country</gvl:country>
-<gvl:registration>registration</gvl:registration>
-<gvl:Bzz>Bzz</gvl:Bzz>
-<gvl:account>account</gvl:account>
-</gvl:Provider>
-<gvl:Value>
-<gvl:Fixed>
-<gvl:currency>kgEqC</gvl:currency>
-<gvl:voucherTokenSymbol>Џ</gvl:voucherTokenSymbol>
-<gvl:voucherTokenLogoBzz>voucherTokenLogoBzz</gvl:voucherTokenLogoBzz>
-<gvl:amount>100000000</gvl:amount>
-<gvl:decimalPower>2</gvl:decimalPower>
-</gvl:Fixed>
-</gvl:Value>
-<gvl:Merchandise>Crops, as any plant, macroscopic fungus, or alga cultivated in agriculture or aquaculture (algaculture). </gvl:Merchandise>
-<gvl:Merchandise>Rice, paddy</gvl:Merchandise>
-<gvl:Merchandise>Cow's milk, whole, fresh</gvl:Merchandise>
-<gvl:Merchandise>Cattle, meat</gvl:Merchandise>
-<gvl:Merchandise>Pig, meat</gvl:Merchandise>
-<gvl:Merchandise>Chicken, meat</gvl:Merchandise>
-<gvl:Merchandise>Wheat</gvl:Merchandise>
-<gvl:Merchandise>Soybeans</gvl:Merchandise>
-<gvl:Merchandise>Tomatoes</gvl:Merchandise>
-<gvl:Merchandise>Sugar cane</gvl:Merchandise>
-<gvl:Merchandise>Maize (Corn)</gvl:Merchandise>
-<gvl:Merchandise>Eggs, in shell</gvl:Merchandise>
-<gvl:Merchandise>Potatoes</gvl:Merchandise>
-<gvl:Merchandise>Vegetables, not elsewhere specified</gvl:Merchandise>
-<gvl:Merchandise>Grapes</gvl:Merchandise>
-<gvl:Merchandise>Water Buffalo milk</gvl:Merchandise>
-<gvl:Merchandise>Cotton, lint</gvl:Merchandise>
-<gvl:Merchandise>Apples</gvl:Merchandise>
-<gvl:Merchandise>Bananas</gvl:Merchandise>
-<gvl:Merchandise>Cassava (yuca)</gvl:Merchandise>
-<gvl:Merchandise>Mangos, Mangosteens, Guavas</gvl:Merchandise>
-<gvl:Merchandise>Sheep, meat</gvl:Merchandise>
-<gvl:Merchandise>Coffee</gvl:Merchandise>
-<gvl:Merchandise>Palm oil</gvl:Merchandise>
-<gvl:Merchandise>Onions, dry</gvl:Merchandise>
-<gvl:Merchandise>Beans, dry and green</gvl:Merchandise>
-<gvl:Merchandise>Peanuts, in shell</gvl:Merchandise>
-<gvl:Merchandise>Olives</gvl:Merchandise>
-<gvl:Merchandise>Rapeseed</gvl:Merchandise>
-<gvl:Merchandise>Chilis and peppers, green and dry</gvl:Merchandise>
-<gvl:Merchandise>Rubber</gvl:Merchandise>
-<gvl:Merchandise>Tea</gvl:Merchandise>
-<gvl:Merchandise>Oranges</gvl:Merchandise>
-<gvl:Merchandise>Cucumbers</gvl:Merchandise>
-<gvl:Merchandise>Yams</gvl:Merchandise>
-<gvl:Merchandise>Peaches, nectarines</gvl:Merchandise>
-<gvl:Merchandise>Lettuce, Chicory</gvl:Merchandise>
-<gvl:Merchandise>Cacao (Chocolate)</gvl:Merchandise>
-<gvl:Merchandise>Goat, meat</gvl:Merchandise>
-<gvl:Merchandise>Sunflower seed</gvl:Merchandise>
-<gvl:Merchandise>Sugar beets</gvl:Merchandise>
-<gvl:Merchandise>Watermelons</gvl:Merchandise>
-<gvl:Merchandise>Buffalo, meat</gvl:Merchandise>
-<gvl:Merchandise>Asparagus</gvl:Merchandise>
-<gvl:Merchandise>Turkey, meat</gvl:Merchandise>
-<gvl:Merchandise>Carrots, Turnips</gvl:Merchandise>
-<gvl:Merchandise>Duck, meat</gvl:Merchandise>
-<gvl:Merchandise>Coconuts</gvl:Merchandise>
-<gvl:Merchandise>Tangerines</gvl:Merchandise>
-<gvl:Merchandise>Almonds</gvl:Merchandise>
-<gvl:Merchandise>Lemons, Limes</gvl:Merchandise>
-<gvl:Merchandise>Strawberries</gvl:Merchandise>
-<gvl:Merchandise>Walnuts</gvl:Merchandise>
-<gvl:Description>“Processing Year” is the twelve-month period commencing January 1 and ending on December 31 of each year, unless otherwise changed by the Cooperative.</gvl:Description>
-<gvl:Description>“Committed Bushels” is the number of bushels of [commodity] that Member has committed to deliver annually to the Cooperative hereunder.</gvl:Description>
-<gvl:Description>“Delivery Period” is the delivery period established for a Processing Year as determined by the Board in its discretion.</gvl:Description>
-<gvl:Description>“Input Commodity Payment” is the per unit price of the delivered [commodity] established by the Board of Directors, in its discretion, prior to the beginning of each Delivery Period.</gvl:Description>
-<gvl:Description>Each community, a producer of agricultural products, hereinafter referred to as “Community,” together with other signers of agreements similar hereto, have a cooperative association under the laws of the Country of the Association</gvl:Description>
-<gvl:Description>(a) The association shall be organized with suitable articles of incorporation and bylaws as determined by an organizational committee.</gvl:Description>
-<gvl:Description>(b) This committee may, by vote of a majority of its members, increase its membership, fill any vacancy therein, and appoint any subcommittees deemed necessary to conduct its affairs. The committee, or any subcommittee designated by it, may prescribe an organization fee to be paid by each person signing an organization agreement and may incur necessary obligations, make necessary expenditures,
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:ietf:params:xml:ns:vts-lang voucherSchema.xsd ">
+	<gvl:Title>Title</gvl:Title>
+	<gvl:Issuer>
+		<gvl:name>KOMPU A.C.M.S.</gvl:name>
+		<gvl:account>account</gvl:account>
+		<gvl:shortname>KOMPU</gvl:shortname>
+		<gvl:longname>Kompu Agricultural co-operative Marketing Society</gvl:longname>
+		<gvl:postaddress>NAFED HOUSE, Siddhartha Enclave, Ashram Chowk, New Delhi 110 014, India</gvl:postaddress>
+		<gvl:country>India</gvl:country>
+		<gvl:registration>91-11-26341807</gvl:registration>
+		<gvl:Bzz>Bzz</gvl:Bzz>
+	</gvl:Issuer>
+	<gvl:Provider>
+		<gvl:name>name</gvl:name>
+		<gvl:account>account</gvl:account>
+		<gvl:shortname>shortname</gvl:shortname>
+		<gvl:longname>longname</gvl:longname>
+		<gvl:postaddress>postaddress</gvl:postaddress>
+		<gvl:country>country</gvl:country>
+		<gvl:registration>registration</gvl:registration>
+		<gvl:Bzz>Bzz</gvl:Bzz>
+		<gvl:account>account</gvl:account>
+	</gvl:Provider>
+	<gvl:Value>
+		<gvl:Fixed>
+			<gvl:currency>kgEqC</gvl:currency>
+			<gvl:voucherTokenSymbol>Џ</gvl:voucherTokenSymbol>
+			<gvl:voucherTokenLogoBzz>voucherTokenLogoBzz</gvl:voucherTokenLogoBzz>
+			<gvl:amount>100000000</gvl:amount>
+			<gvl:decimalPower>2</gvl:decimalPower>
+		</gvl:Fixed>
+	</gvl:Value>
+	<gvl:Merchandise>Crops, as any plant, macroscopic fungus, or alga cultivated in agriculture or aquaculture (algaculture). </gvl:Merchandise>
+	<gvl:Merchandise>Rice, paddy</gvl:Merchandise>
+	<gvl:Merchandise>Cow's milk, whole, fresh</gvl:Merchandise>
+	<gvl:Merchandise>Cattle, meat</gvl:Merchandise>
+	<gvl:Merchandise>Pig, meat</gvl:Merchandise>
+	<gvl:Merchandise>Chicken, meat</gvl:Merchandise>
+	<gvl:Merchandise>Wheat</gvl:Merchandise>
+	<gvl:Merchandise>Soybeans</gvl:Merchandise>
+	<gvl:Merchandise>Tomatoes</gvl:Merchandise>
+	<gvl:Merchandise>Sugar cane</gvl:Merchandise>
+	<gvl:Merchandise>Maize (Corn)</gvl:Merchandise>
+	<gvl:Merchandise>Eggs, in shell</gvl:Merchandise>
+	<gvl:Merchandise>Potatoes</gvl:Merchandise>
+	<gvl:Merchandise>Vegetables, not elsewhere specified</gvl:Merchandise>
+	<gvl:Merchandise>Grapes</gvl:Merchandise>
+	<gvl:Merchandise>Water Buffalo milk</gvl:Merchandise>
+	<gvl:Merchandise>Cotton, lint</gvl:Merchandise>
+	<gvl:Merchandise>Apples</gvl:Merchandise>
+	<gvl:Merchandise>Bananas</gvl:Merchandise>
+	<gvl:Merchandise>Cassava (yuca)</gvl:Merchandise>
+	<gvl:Merchandise>Mangos, Mangosteens, Guavas</gvl:Merchandise>
+	<gvl:Merchandise>Sheep, meat</gvl:Merchandise>
+	<gvl:Merchandise>Coffee</gvl:Merchandise>
+	<gvl:Merchandise>Palm oil</gvl:Merchandise>
+	<gvl:Merchandise>Onions, dry</gvl:Merchandise>
+	<gvl:Merchandise>Beans, dry and green</gvl:Merchandise>
+	<gvl:Merchandise>Peanuts, in shell</gvl:Merchandise>
+	<gvl:Merchandise>Olives</gvl:Merchandise>
+	<gvl:Merchandise>Rapeseed</gvl:Merchandise>
+	<gvl:Merchandise>Chilis and peppers, green and dry</gvl:Merchandise>
+	<gvl:Merchandise>Rubber</gvl:Merchandise>
+	<gvl:Merchandise>Tea</gvl:Merchandise>
+	<gvl:Merchandise>Oranges</gvl:Merchandise>
+	<gvl:Merchandise>Cucumbers</gvl:Merchandise>
+	<gvl:Merchandise>Yams</gvl:Merchandise>
+	<gvl:Merchandise>Peaches, nectarines</gvl:Merchandise>
+	<gvl:Merchandise>Lettuce, Chicory</gvl:Merchandise>
+	<gvl:Merchandise>Cacao (Chocolate)</gvl:Merchandise>
+	<gvl:Merchandise>Goat, meat</gvl:Merchandise>
+	<gvl:Merchandise>Sunflower seed</gvl:Merchandise>
+	<gvl:Merchandise>Sugar beets</gvl:Merchandise>
+	<gvl:Merchandise>Watermelons</gvl:Merchandise>
+	<gvl:Merchandise>Buffalo, meat</gvl:Merchandise>
+	<gvl:Merchandise>Asparagus</gvl:Merchandise>
+	<gvl:Merchandise>Turkey, meat</gvl:Merchandise>
+	<gvl:Merchandise>Carrots, Turnips</gvl:Merchandise>
+	<gvl:Merchandise>Duck, meat</gvl:Merchandise>
+	<gvl:Merchandise>Coconuts</gvl:Merchandise>
+	<gvl:Merchandise>Tangerines</gvl:Merchandise>
+	<gvl:Merchandise>Almonds</gvl:Merchandise>
+	<gvl:Merchandise>Lemons, Limes</gvl:Merchandise>
+	<gvl:Merchandise>Strawberries</gvl:Merchandise>
+	<gvl:Merchandise>Walnuts</gvl:Merchandise>
+	<gvl:Description>“Processing Year” is the twelve-month period commencing January 1 and ending on December 31 of each year, unless otherwise changed by the Cooperative.</gvl:Description>
+	<gvl:Description>“Committed Bushels” is the number of bushels of [commodity] that Member has committed to deliver annually to the Cooperative hereunder.</gvl:Description>
+	<gvl:Description>“Delivery Period” is the delivery period established for a Processing Year as determined by the Board in its discretion.</gvl:Description>
+	<gvl:Description>“Input Commodity Payment” is the per unit price of the delivered [commodity] established by the Board of Directors, in its discretion, prior to the beginning of each Delivery Period.</gvl:Description>
+	<gvl:Description>Each community, a producer of agricultural products, hereinafter referred to as “Community,” together with other signers of agreements similar hereto, have a cooperative association under the laws of the Country of the Association</gvl:Description>
+	<gvl:Description>(a) The association shall be organized with suitable articles of incorporation and bylaws as determined by an organizational committee.</gvl:Description>
+	<gvl:Description>(b) This committee may, by vote of a majority of its members, increase its membership, fill any vacancy therein, and appoint any subcommittees deemed necessary to conduct its affairs. The committee, or any subcommittee designated by it, may prescribe an organization fee to be paid by each person signing an organization agreement and may incur necessary obligations, make necessary expenditures,
 and take any such action as may, in its discretion, be deemed advisable to further the organization of the association.</gvl:Description>
-<gvl:Description>A kgEqC is the price of a kilo of Rice, and stands for a kg "Equivalent" in Crops. Each crop will have a price for a kilo a a multimplier of kgEqC</gvl:Description>
-<gvl:Condition>Each community agrees to sign a marketing agreement committing all (product) produced by Producer, on land owned or leased by Producer, to the cooperative for direct marketing, processing, or other disposition as the cooperative sees fit.</gvl:Condition>
-<gvl:Condition>Each community estimates such production in a quentity expressed as its "promise"</gvl:Condition>
-<gvl:Condition>Each community agrees to sign a marketing agreement to commit (promise units) of (product), produced by the Community, to the cooperative for direct marketing, processing, or other disposition as the cooperative sees fit.</gvl:Condition>
-<gvl:ValidPeriod end="2017-12-31T12:00:00" start="2020-12-31T12:00:00" />
+	<gvl:Description>A kgEqC is the price of a kilo of Rice, and stands for a kg "Equivalent" in Crops. Each crop will have a price for a kilo a a multimplier of kgEqC</gvl:Description>
+	<gvl:Condition>Each community agrees to sign a marketing agreement committing all (product) produced by Producer, on land owned or leased by Producer, to the cooperative for direct marketing, processing, or other disposition as the cooperative sees fit.</gvl:Condition>
+	<gvl:Condition>Each community estimates such production in a quentity expressed as its "promise"</gvl:Condition>
+	<gvl:Condition>Each community agrees to sign a marketing agreement to commit (promise units) of (product), produced by the Community, to the cooperative for direct marketing, processing, or other disposition as the cooperative sees fit.</gvl:Condition>
+	<gvl:ValidPeriod end="2017-12-31T12:00:00" start="2020-12-31T12:00:00" />
 </gvl:Voucher>
