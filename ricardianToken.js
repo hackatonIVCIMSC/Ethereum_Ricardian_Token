@@ -3,7 +3,9 @@ if (typeof web3 !== 'undefined')
 else
 	web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
-var RicardianTokenContract = web3.eth.contract();
+var RicardianTokenContract = web3.eth.contract(
+		
+);
 
 var RTC = RicardianTokenContract
 		.at("");

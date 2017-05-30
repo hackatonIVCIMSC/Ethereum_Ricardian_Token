@@ -27,7 +27,7 @@
 	</gvl:Provider>
 	<gvl:Value>
 		<gvl:Fixed>
-			<gvl:currency>kgEqC</gvl:currency>
+			<gvl:currency>kgCROPS</gvl:currency>
 			<gvl:voucherTokenSymbol>Џ</gvl:voucherTokenSymbol>
 			<gvl:voucherTokenLogoBzz>voucherTokenLogoBzz</gvl:voucherTokenLogoBzz>
 			<gvl:amount>100000000</gvl:amount>
