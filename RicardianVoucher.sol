@@ -6,21 +6,6 @@ contract ricardianVoucher {
 	
     // Owner of this smart contract
     address public owner;
-    
-    // Functions with this modifier can only be executed by the owner
-    modifier onlyOwner() {
-        if (msg.sender != owner) {
-           throw;
-        }
-       _;
-    }
-    
-    // Functions with this modifier can only be executed before voucherToken in circulation
-    modifier beforeCirculation {
-        if (now > validity_start)
-            throw;
-        _;
-    }     
   
     /* voucherToken MANAGEMENT */ 
 	
@@ -30,6 +15,7 @@ contract ricardianVoucher {
     string public symbol;
     uint8 public decimals;
     uint public totalSupply;
+    string public legalContract;
     string public logo;  				        // swarm hash of a voucher or voucherToken icon or logo
     uint public validity_start; 				// start date of the contract. Validity period of the voucher to redeem merchandises
     uint public validity_end; 					// end date of the contract. Provides restrictions on the validity period of the voucher
@@ -44,9 +30,10 @@ contract ricardianVoucher {
         string _name,
         uint8 _decimals,
         string _symbol,
+        string _legalContract,
         string _logo,
-        uint8 _validity_start_inDays, 					// in how many days the period starts
-        uint8 _validity_end_inDays 					    // in how many days the period ends	
+        uint8 _validity_start_inDays, 					
+        uint8 _validity_end_inDays 					    
         ) {
     	owner = msg.sender;
         balances[owner] = uint(totalSupply);       	    // Give the creator all initial voucherTokens
@@ -54,6 +41,7 @@ contract ricardianVoucher {
         name = _name;                                   // Set the name for display purposes
         symbol = _symbol;                               // Set the symbol for display purposes
         decimals = _decimals; 							// Amount of decimals for display purposes
+        legalContract = _legalContract;
         logo = _logo;
         validity_start = now + _validity_start_inDays * 1 days;
         validity_end = now + _validity_end_inDays * 1 days; 
@@ -63,16 +51,10 @@ contract ricardianVoucher {
     mapping(address => uint) balances; 
     
     // Owner of account approves the transfer of an amount to another account
-     mapping(address => mapping (address => uint256)) allowed;
+    mapping(address => mapping (address => uint256)) allowed;
     
-    /* CONTRACT MANAGEMENT */
-    
-    address public contractBzz; 				// swarm hash of the signer human readable contract
-    
-    function linkContract (address _contractBzz) onlyOwner beforeCirculation { 
-    	contractBzz = _contractBzz;
-    }
-    
+    /* CONTRACT DETAILS */
+
     string[] merchandises; 						// Provides restrictions on the object to be claimed. Domain-specific meaning of the voucher
     string[] definitions; 						// Includes terms and definitions that generally desire to be defined in a contract
     string[] conditions; 						// Provides any other applicable restrictions
@@ -81,14 +63,20 @@ contract ricardianVoucher {
     // only the owner can write the contract terms
     // contract terms can only be written before circulation 
     
-    function writeMerchandises (uint8 _number, string _merchandise) onlyOwner beforeCirculation {
+    function writeMerchandises (uint8 _number, string _merchandise) {
+        if (msg.sender == owner) {
     	merchandises[_number] = _merchandise;
+        }
     }
-    function writeDefinitions (uint8 _number, string _definition) onlyOwner beforeCirculation {
+    function writeDefinitions (uint8 _number, string _definition) {
+        if (msg.sender == owner) {
     	definitions[_number] = _definition;
+        }
     }
-    function writeConditions (uint8 _number, string _condition) onlyOwner beforeCirculation  {
+    function writeConditions (uint8 _number, string _condition) {
+        if (msg.sender == owner) {
     	conditions[_number] = _condition;
+        }
     }
        
     /* VOUCHER CICULATION */  
@@ -152,23 +140,29 @@ contract ricardianVoucher {
         ApplicationProvider(msg.sender, _name, now);
     }
     
-    function approveProvider (address _provider) onlyOwner {
+    function approveProvider (address _provider) {
+        if (msg.sender == owner && provider[msg.sender].member == false) {
     	provider[_provider].member = true;
     	providerIndex[providerIndex.length + 1] = _provider;
     	provider[_provider].promiseApproved = false;
     	ApproveProvider (_provider, provider[_provider].name, now);
+        }
     }
     
     function makePromise (uint _promise) {
+        if (provider[msg.sender].member == true && provider[msg.sender].promiseApproved == false) {
         provider[msg.sender].promise = _promise;
         MakePromise (msg.sender, _promise, now);
+        }
     }
     
     function approvePromise (address _provider) {
+        if (provider[_provider].member == true && provider[msg.sender].promiseApproved == false) {
         provider[_provider].promiseApproved = true;
         balances[_provider] += provider[msg.sender].promise;
         totalSupply += provider[msg.sender].promise;
         ApprovePromise (_provider, provider[_provider].promise, now);
+        }
     }
   
  
@@ -224,7 +218,7 @@ contract ricardianVoucher {
     
     event ApplicationProvider (address indexed _from, string _name, uint _timestamp);
 	
-	event ApproveProvider (address indexed _from, string _name, uint _timestamp);
+	event ApproveProvider (address _provider, string _name, uint _timestamp);
 	
 	event MakePromise (address indexed _provider, uint _promise, uint _timestamp);
     

@@ -5,11 +5,11 @@
 	xsi:schemaLocation="urn:ietf:params:xml:ns:vts-lang voucherSchema.xsd ">
 	<gvl:Title>Title</gvl:Title>
 	<gvl:Issuer>
-		<gvl:name>KOMPU A.C.M.S.</gvl:name>
+		<gvl:name>Hyderabad A.C.M.S.</gvl:name>
 		<gvl:account>account</gvl:account>
-		<gvl:shortname>KOMPU</gvl:shortname>
-		<gvl:longname>Kompu Agricultural co-operative Marketing Society</gvl:longname>
-		<gvl:postaddress>NAFED HOUSE, Siddhartha Enclave, Ashram Chowk, New Delhi 110 014, India</gvl:postaddress>
+		<gvl:shortname>Hyderabad</gvl:shortname>
+		<gvl:longname>Hyderabad Agricultural co-operative Marketing Society</gvl:longname>
+		<gvl:postaddress>NAFED HOUSE, Siddhartha Enclave, Ashram Chowk, Hyderabad 110 014, India</gvl:postaddress>
 		<gvl:country>India</gvl:country>
 		<gvl:registration>91-11-26341807</gvl:registration>
 		<gvl:Bzz>Bzz</gvl:Bzz>
